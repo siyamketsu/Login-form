@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+
+
+        <img id="logo" src="kisasa.JPG" alt="Kisasa-logo"> 
+
+        <div class="login_container">
+            <!-- <h1>Login</h1> -->
+            <form method="POST" action="#" class="form-container" onsubmit="return validate()">
+                <h1>Login</h1>
+                <div class="input-text">
+                    <input autocomplete="off" id="email" type="text" name="email" placeholder="Email Address"> <!-- Remove autofill -->
+                    <p class="error errorEmail">Email field cannot be empty</p>
+                    <p class="fa fa-check u_check">Please enter a valid email</p>
+                </div>
+        
+                <div class="input-text">
+                    <input id="password" type="password" name="password"  placeholder="Password">
+                    <p class="fa fa-check p_check">Please enter the correct password</p>
+                    <p class="error errorPass">Password field cannot be empty</p>
+                </div>
+
+                <div class="forgot-pass"><a href="#">Forgot password</a></div>
+        
+                <div class="login-btn">
+                    <button id="click-btn">Login</button>
+                </div>
+
+                <div class="register-pass">Not registered?<a href="#">Register</a></div>
+            </form>
+        </div>
+        
+        <script src="login.js"></script>
+
+        <footer id="footer">
+            <div class="comp-info">
+                <p>© 2020 Kisasa is an authorized financial services provider FSP No. 48314 </p>
+            </div>
+
+            <div class="info-link">
+                <a href="https://www.facebook.com/companypartners" target="_blank">
+                    <img src="https://beta.demo-companypartners.co.za/wp-content/uploads/2017/11/footer_fav.png" style="width:30px;vertical-align:middle;">
+                    <!-- There's an inline styling that needs to be removed -->
+                </a>Designed by Company Partners. Free Business Consultation 0800 007 269 (Toll Free)
+            </div>
+
+            <div class="clearfix"></div>
+        </footer>
+    </body>
+</html>

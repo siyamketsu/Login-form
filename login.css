@@ -1,0 +1,112 @@
+* {padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+#logo {
+    max-width: 17.4rem;
+    height: auto;
+    margin: 0.9rem 2.1rem
+}
+.login_container {
+    width: 450px;
+    margin: 5rem auto 12.4rem auto;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    padding: 0.5rem 0px;
+    box-shadow: 0 0 35px rgb(225, 225, 225);
+}
+h1{
+    margin: 15px auto;
+    text-align: center;
+    font-size: 38px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #fff, 2px 2px 3px #222;
+    color:#00769f;
+    font-weight: 800;
+}
+form{
+    width: 350px;
+    margin: 20px auto;
+}
+.input-text {position: relative;
+    margin-bottom: 20px;
+}
+
+.input-text input{
+    display: block;
+    padding: 8px 16px;
+    font-size: 20px;
+    margin: 4px auto;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #00769f;
+    outline: none;
+    background-color: transparent;
+}
+.login-btn button {
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 10px 148px;
+    color:#fff;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s all;
+    background-color: #00769f;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.login-btn button:hover {
+    padding: 10px 160px 10px 136px;
+    color:#00769f;
+    border-color: #00769f;
+    background-color: rgba(224, 224, 224, 0.726);
+}
+.login-btn button::after {position: absolute;
+    content: "\276F";
+    top: 5px;
+    opacity: 0;
+    margin-left: -1rem;
+    transition: 0.3s all;
+}
+.login-btn button:hover::after {opacity: 1;
+    margin-left: 1rem;
+}
+.forgot-pass {margin-bottom: 15px;
+}
+.register-pass {margin-top: 15px;
+    text-align: center;
+}
+
+.forgot-pass a, .register-pass a{color: #00769f;}
+
+/*Verifying*/
+.fa {display: none;}
+.fa-check {color: #f10000;
+    font-size: 13px;
+}
+.error {display: none;
+    color: #f10000;
+    text-align: left;
+    font-size: 13px;
+}
+
+#footer {
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    color: #666;
+}
+.comp-info {padding: 10px 25px;
+    background-color: rgba(0,0,0,.32);
+}
+.comp-info p {padding: 9px 0;
+    margin-left: 14.1rem;
+    font-size: 14px;
+
+}
+
+.info-link {text-align: center;
+    font-size: 14px;
+}
